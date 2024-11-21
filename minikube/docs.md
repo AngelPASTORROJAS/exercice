@@ -50,3 +50,8 @@ Citations:
 [6] https://minikube.sigs.k8s.io/docs/handbook/accessing/
 [7] https://minikube.sigs.k8s.io/docs/drivers/docker/
 [8] https://www.geeksforgeeks.org/kubernetes-minikube/
+
+--
+```bash
+kubectl get nodes -o wide
+```
