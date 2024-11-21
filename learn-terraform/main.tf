@@ -6,9 +6,8 @@ terraform {
     }
   }
 }
-provider "docker" {
-    host = "unix://var/run/docker.stock"
-}
+provider "docker" {}
+
 resource "docker_container" "example" {
     name = "my-container"
     image = "nginx:latest"
